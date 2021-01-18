@@ -28,4 +28,21 @@ Note: Distinguish Categorical Variables vs. Numeric Variables
   - Step 4. No new variables can enter and no old variables can exit
 5. Score comparison
 
-## SVR Intuition
+## SVR (Support Vector Regression)
+
+Outliers not caught well with SVR model
+
+## Decision Trees
+
+No need for feature scaling in decision tree and random forest regression
+
+## Random Forests
+
+A version of ensemble learning - taking the same algorithm multiple times to get an output more powerful than the original input
+
+Steps:
+1. Pick (at random) K data points from the training set
+2. Build the decision tree associated to these K data points
+3. Choose the number of Ntree of trees you want to build and repeat steps 1 and 2
+4. For a new data point, make each one of your Ntree trees predict the value of Y to for the data point in question, and assign the new data point the average across all of the predicted Y values.
+
