@@ -46,3 +46,28 @@ Steps:
 3. Choose the number of Ntree of trees you want to build and repeat steps 1 and 2
 4. For a new data point, make each one of your Ntree trees predict the value of Y to for the data point in question, and assign the new data point the average across all of the predicted Y values.
 
+## R Squared
+
+What is $R^2$?
+* Representative value of the best fit of a regression model. 
+  * The greater the value for *R^2$, the better
+* The problem with $R^2$:
+  * If you keep adding independent variables to your regression model, you will not know if they are helping or not helping the model. 
+* *See [this](https://www.geeksforgeeks.org/ml-r-squared-in-regression-analysis/) for more info*
+
+$$SS_{residual} = \sum(y_i - \hat {y_i})^2$$
+
+$$SS_{total} = \sum(y_i - \hat y_{avg})^2$$ 
+
+Given these equations, the final equation for $R^2$ is:
+
+$$R^2 = 1 - \frac{SS_{res}}{SS_{tot}}$$
+
+The same concepts apply for $R^2$ for *linear* AND *multiple* linear regression.
+
+The adjusted $R^2$ equation penalizes you for adding independent variables that DO NOT help your model.
+
+$$Adj R^2 = 1 - (1 - R^2)\frac{n-1}{n-p-1}$$
+
+where $p$ is the number of regressors and $n$ is the sample size.
+
