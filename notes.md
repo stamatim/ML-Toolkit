@@ -71,3 +71,15 @@ $$Adj R^2 = 1 - (1 - R^2)\frac{n-1}{n-p-1}$$
 
 where $p$ is the number of regressors and $n$ is the sample size.
 
+## Selecting the best machine learning model for regression
+
+How do we select the best regression model to use on a dataset?
+- Answer: Run the same dataset through all of the regression models and whichever one produces the highest $R^2$ value is the one we should use. 
+
+
+## Classification
+
+In *regression*, the goal is to predict a continuous __number__.
+
+In *classification*, the goal is to predict a __category__.
+
