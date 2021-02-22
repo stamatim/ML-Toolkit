@@ -16,6 +16,8 @@ A collection of common Machine Learning templates and examples for building effe
     - `8. logistic_regression`
     - `9. k_nearest_neighbors`
     - `10. support_vector_machine`
+    - `11. kernel_svm`
+    - `12. naive_bayes`
 * Clustering
 * Association Rule Learning
 * Reinforcement Learning
