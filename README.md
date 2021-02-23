@@ -18,6 +18,8 @@ A collection of common Machine Learning templates and examples for building effe
     - `10. support_vector_machine`
     - `11. kernel_svm`
     - `12. naive_bayes`
+    - `13. decision_tree_classification`
+    - `14. random_forest_classification`
 * Clustering
 * Association Rule Learning
 * Reinforcement Learning
